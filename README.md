@@ -17,3 +17,8 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 ```bash
 make
 ./rasterizer
+```
+
+<p align="center">
+  <img src="screenshots/triangle.png" alt="Triangle Rasterizer" width="400"/>
+</p>
