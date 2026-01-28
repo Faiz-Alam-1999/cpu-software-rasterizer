@@ -20,5 +20,5 @@ make
 ```
 
 <p align="center">
-  <img src="screenshots/triangle.png" alt="Triangle Rasterizer" width="400"/>
+  <img src="screenshots/triangles.png" alt="Triangle Rasterizer" width="400"/>
 </p>
