@@ -18,7 +18,5 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 make
 ./rasterizer
 ```
-
-<p align="center">
-  <img src="screenshots/triangles.png" alt="Triangle Rasterizer" width="400"/>
-</p>
+## Demo / Screenshot
+![Triangle Rasterizer](screenshots/triangles.png)
