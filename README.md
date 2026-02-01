@@ -11,32 +11,17 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 - Basic lighting (Lambert/Phong) ⬜
 - Performance optimizations (SIMD/multithreading) ⬜
 
-## Build & Run 
+## Build, Run & Clean 
 ### For Linux / macOS
-1. Build:
 ```bash
 make
-```
-2. Run:
-```bash
 make run
-```
-3. Clean:
-```bash
 make clean
 ```
-
 ### For Windows
-1. Build:
 ```bash
 make build-win
-```
-2. Run:
-```bash
 make run-win
-```
-3. Clean:
-```bash
 make clean-win
 ```
 
