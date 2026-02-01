@@ -1,8 +1,16 @@
-build:
-	gcc ./src/*.c -I"C:\SDL2\include" -L"C:\SDL2\lib" -lmingw32 -lSDL2 -lm -o rasterizer.exe
+BUILD_DIR = .cmake-build
+TARGET = rasterizer
+
+ifeq ($(OS),Windows_NT)
+	TARGET := $(TARGET).exe
+endif
+
+all:
+	cmake -S . -B $(BUILD_DIR)
+	cmake --build $(BUILD_DIR)
 
 run:
-	./rasterizer.exe
+	./$(TARGET)
 
 clean:
-	del rasterizer.exe
+	rm -rf $(BUILD_DIR) $(TARGET)
