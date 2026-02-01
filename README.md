@@ -11,11 +11,8 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 - Basic lighting (Lambert/Phong) ⬜
 - Performance optimizations (SIMD/multithreading) ⬜
 
-## Prerequisites
-1. Install [SDL2](https://www.libsdl.org/)  
-2. Install [CMake](https://cmake.org/)
-
-## Build & Run
+## Build & Run 
+### For Linux / macOS
 1. Build:
 ```bash
 make
@@ -23,6 +20,24 @@ make
 2. Run:
 ```bash
 make run
+```
+3. Clean:
+```bash
+make clean
+```
+
+### For Windows
+1. Build:
+```bash
+make build-win
+```
+2. Run:
+```bash
+make run-win
+```
+3. Clean:
+```bash
+make clean-win
 ```
 
 ## Demo / Screenshot
