@@ -3,8 +3,8 @@
 
 build:
 build-win:
-	gcc ./src/*.c -I".\SDL2_lib\include" -L".\SDL2_lib\lib" -lmingw32 -lSDL2 -lm -o rasterizer.exe
-	copy SDL2_lib\SDL2.dll	
+	gcc ./src/*.c -I".\SDL2\include" -L".\SDL2\lib" -lmingw32 -lSDL2 -lm -o rasterizer.exe
+	copy SDL2\SDL2.dll	
 	 		
 run: 
 	rasterizer
