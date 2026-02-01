@@ -1,16 +1,28 @@
-BUILD_DIR = .cmake-build
-TARGET = rasterizer
+# for (Linux/macOS):	use 	build, 		run, 		clean 		
+# for (Windows):		use 	build-win, 	run-win,	clean-win	
 
-ifeq ($(OS),Windows_NT)
-	TARGET := $(TARGET).exe
-endif
-
-all:
-	cmake -S . -B $(BUILD_DIR)
-	cmake --build $(BUILD_DIR)
-
-run:
-	./$(TARGET)
+build:
+build-win:
+	gcc ./src/*.c -I".\SDL2_lib\include" -L".\SDL2_lib\lib" -lmingw32 -lSDL2 -lm -o rasterizer.exe
+	copy SDL2_lib\SDL2.dll	
+	 		
+run: 
+	rasterizer
+run-win:
+	rasterizer.exe
 
 clean:
-	rm -rf $(BUILD_DIR) $(TARGET)
+	rm -f rasterizer
+clean-win:
+	del rasterizer.exe
+	del SDL2.dll
+
+	
+# (Windows Note):
+# In  Windows to work with SDL2 
+# you one little extra thing 
+# that's SDL2.dll needed 
+# just next to the rasterizer.exe
+
+
+.PHONY: build build-win run run-win clean clean-win
