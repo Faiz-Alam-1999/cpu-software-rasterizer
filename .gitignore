@@ -57,3 +57,9 @@ dkms.conf
 
 # Editor / IDE settings
 .vscode/
+
+# CMake build directory
+.cmake-build/
+
+# Project binaries
+rasterizer
