@@ -11,12 +11,19 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 - Basic lighting (Lambert/Phong) ⬜
 - Performance optimizations (SIMD/multithreading) ⬜
 
-## Build & Run
+## Prerequisites
 1. Install [SDL2](https://www.libsdl.org/)  
-2. Run:
+2. Install [CMake](https://cmake.org/)
+
+## Build & Run
+1. Build:
 ```bash
 make
-./rasterizer
 ```
+2. Run:
+```bash
+make run
+```
+
 ## Demo / Screenshot
 ![Triangle Rasterizer](screenshots/triangles.png)
