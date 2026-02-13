@@ -26,4 +26,4 @@ make clean-win
 ```
 
 ## Demo / Screenshot
-![Triangle Rasterizer](screenshots/triangles.png)
+![Triangle Rasterizer](screenshots/rasterizer.png)
