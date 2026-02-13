@@ -2,12 +2,13 @@
 # for (Windows):		use 	build-win, 	run-win,	clean-win	
 
 build:
+	gcc ./src/*.c -I"./SDL2/include" -L"./SDL2/lib" -lSDL2 -lm -o rasterizer
 build-win:
 	gcc ./src/*.c -I".\SDL2\include" -L".\SDL2\lib" -lmingw32 -lSDL2 -lm -o rasterizer.exe
 	copy SDL2\SDL2.dll	
 	 		
 run: 
-	rasterizer
+	./rasterizer
 run-win:
 	rasterizer.exe
 
