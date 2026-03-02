@@ -11,6 +11,9 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 - Basic lighting (Lambert/Phong) ⬜
 - Performance optimizations (SIMD/multithreading) ⬜
 
+## Prerequisite
+- GCC compiler (install according to your operating system)
+
 ## Build, Run & Clean 
 ### For Linux / macOS
 ```bash
