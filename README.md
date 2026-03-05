@@ -1,4 +1,4 @@
-# 🎨 CPU Software Rasterizer
+# 🖼️ CPU Software Rasterizer
 
 A CPU-based software rasterizer written in C **from scratch** to explore the fundamentals of the graphics pipeline and low-level rendering.
 
