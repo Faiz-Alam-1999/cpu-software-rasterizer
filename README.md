@@ -28,5 +28,5 @@ make run-win
 make clean-win
 ```
 
-## Demo / Screenshot
+## Preview
 ![Triangle Rasterizer](screenshots/rasterizer.png)
