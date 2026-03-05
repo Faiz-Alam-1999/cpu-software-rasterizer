@@ -1,8 +1,8 @@
-# CPU Software Rasterizer
+# 🎨 CPU Software Rasterizer
 
 A CPU-based software rasterizer written in C **from scratch** to explore the fundamentals of the graphics pipeline and low-level rendering.
 
-## Features (In Progress)
+## ✨ Features (In Progress)
 - Triangle rasterization ✅
 - Depth buffering (Z-buffer) ⬜
 - Backface culling ⬜
@@ -11,22 +11,22 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 - Basic lighting (Lambert/Phong) ⬜
 - Performance optimizations (SIMD/multithreading) ⬜
 
-## Prerequisite
+## ⚙️ Prerequisite
 - GCC compiler (install according to your operating system)
 
-## Build, Run & Clean 
-### For Linux / macOS
+## 🛠️ Build, Run & Clean 
+### 🐧 Linux / 🍎 macOS
 ```bash
 make
 make run
 make clean
 ```
-### For Windows
+### 🪟 Windows
 ```bash
 make build-win
 make run-win
 make clean-win
 ```
 
-## Preview
+## 📸 Preview
 ![Triangle Rasterizer](screenshots/rasterizer.png)
