@@ -12,7 +12,7 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 - Performance optimizations (SIMD/multithreading) ⬜
 
 ## ⚙️ Prerequisites
-- GCC compiler – [Install GCC](https://gcc.gnu.org/install/)
+- GCC compiler [(Download / Installation Guide)](https://gcc.gnu.org/install/)
 
 ## 🛠️ Build, Run & Clean 
 ### 🐧 Linux / 🍎 macOS
