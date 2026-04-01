@@ -21,8 +21,7 @@ clean-win:
 	
 # (Windows Note):
 # In  Windows to work with SDL2 
-# you one little extra thing 
-# that's SDL2.dll needed 
+# you need SDL2.dll  
 # just next to the rasterizer.exe
 
 
