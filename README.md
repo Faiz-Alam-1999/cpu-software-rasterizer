@@ -14,18 +14,7 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 ## ⚙️ Prerequisites
 - C compiler (GCC or Clang)
 - SDL2 development libraries (Linux / macOS only)
--- #### 🐧 Linux (Debian-based)
-```bash
-sudo apt update 
-sudo apt install libsdl2-dev
-```
--- #### 🍎 macOS (Homebrew)
-```bash
-brew install sdl2
-```
-
 - pkg-config (recommended)
-
 > Linux/macOS builds use system-installed SDL2 via pkg-config.
 
 ## 🛠️ Build, Run & Clean 
