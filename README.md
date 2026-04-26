@@ -29,6 +29,12 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 
 ## 🛠️ Build, Run & Clean
 
+> Uses GCC by default. To use Clang:
+>
+> ```bash
+> make CC=clang
+> ```
+
 ### 🐧 Linux / 🍎 macOS
 
 ```bash
@@ -36,12 +42,6 @@ make
 make run
 make clean
 ```
-
-> Uses GCC by default. To use Clang:
->
-> ```bash
-> make CC=clang
-> ```
 
 ### 🪟 Windows
 
