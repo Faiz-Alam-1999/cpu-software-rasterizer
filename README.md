@@ -12,9 +12,13 @@ A CPU-based software rasterizer written in C **from scratch** to explore the fun
 - Performance optimizations (SIMD/multithreading) ⬜
 
 ## ⚙️ Prerequisites
-- C compiler (GCC or Clang)
-- SDL2 development libraries (Linux/macOS only)
-- pkg-config (recommended for Linux/macOS)
+### 🐧 Linux / 🍎 macOS
+- C compiler ([GCC](https://gcc.gnu.org/) or [Clang](https://clang.llvm.org/))
+- [SDL2](https://www.libsdl.org/) development libraries 
+- [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/) (used for automatic SDL2 detection)
+
+### 🪟 Windows
+- C compiler ([GCC](https://gcc.gnu.org/) or [Clang](https://clang.llvm.org/))
 
 > Linux/macOS builds use system-installed SDL2 via pkg-config.  
 > Windows uses the bundled SDL2, no additional installation required.
